@@ -1,0 +1,14 @@
+{
+  "name": "taskflow-flutter",
+  "version": "1.0.0",
+  "description": "TaskFlow - Enterprise Flutter Mobile & Web Application (Android, iOS, Web)",
+  "private": true,
+  "scripts": {
+    "dev": "flutter run -d chrome --web-port 8080",
+    "android": "flutter run -d android",
+    "analyze": "flutter analyze",
+    "test": "flutter test",
+    "build:web": "flutter build web --release",
+    "build:apk": "flutter build apk --debug"
+  }
+}
